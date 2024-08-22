@@ -59,26 +59,19 @@ plugins:
 
 author:
   name   : "Michael Weisz"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/profile.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/michaelweisz1/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mweisz/"
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fa fa-linkedin-square"  
       url: "https://www.linkedin.com/in/michaelweisz1/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -94,7 +87,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
