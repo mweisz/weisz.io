@@ -71,7 +71,7 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fa fa-linkedin"  
+      icon: "fab fa-fw fa-linkedin"  
       url: "https://www.linkedin.com/in/michaelweisz1/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -86,9 +86,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: false
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
